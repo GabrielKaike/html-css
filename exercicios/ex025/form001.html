@@ -26,20 +26,25 @@
             border-radius: 10px;
         }
         .button{
-            position: absolute;
-            top: 400px;
-            left: 50%;
-            transform: translate(-50%);
-            width: 500px;
+            width: 400px;
             height: 50px;
-        }
-        p{
-
         }
         body{
             padding: 0px;
             margin: 0px;
             background-color: black;
+        }
+        .button:hover{
+            background-color: lightgray;
+            border: 2px solid black;
+        }
+        form{
+            position: absolute;
+            background-color: brown;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
         }
     </style>
 </head>
@@ -49,7 +54,7 @@
         <form>
             <p>Nome <br><input type="text" name="nome" id="nome"></p>
             <p>Sobrenome <br><input type="text" name="sobrenome" id="sobrenome"></p>
-            <p><input type="submit" value="Enviar" class="button"></p>
+            <p><input type="submit" value="CONFIRMAR" class="button" style="font-weight: bolder; font-size: 20px;"></p>
         </form>
     </div>
 </body>
